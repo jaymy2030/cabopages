@@ -1,0 +1,263 @@
+/* ==========================================================================
+	#General
+========================================================================== */
+#pjWrapper * { font-family: 'Lato', sans-serif; }
+#pjWrapper .fa { font-family: 'FontAwesome'; }
+#pjWrapper .glyphicon { font-family: 'Glyphicons Halflings'; }
+
+#pjWrapper a,
+#pjWrapper .input-group-addon,
+#pjWrapper .btn .glyphicon { color: #ecbd1c; }
+
+#pjWrapper a:hover { color: #d5a80f; }
+
+#pjWrapper .btn-primary { background-color: #ecbd1c; border-color: #d5a80f; }
+#pjWrapper .btn-primary:hover { background-color: #d5a80f; }
+
+#pjWrapper .pjTbs-head { width: 650px; background-color: #4fa3e3; border-color: #303030;  border: 1px solid # f2f2f2; margin: 0 auto;}
+
+#pjWrapper .btn-secondary { background-color: #767575; border-color: #6c6867; }
+#pjWrapper .btn-secondary:hover { background-color: #6c6867; }
+
+#pjWrapper .btn,
+#pjWrapper .btn:hover { color: #fff; }
+
+#pjWrapper .pjTbs-body { background-color: #ffffff; width: 650px;  margin: 0 auto; }
+
+#pjWrapper .pjTbs-head .form-control,
+#pjWrapper .btn-default { background-color: #404040; color: #fff; border-color: #585656; }
+
+#pjWrapper .pjTbs-head .dropdown-menu { background-color: #404040; }
+#pjWrapper .pjTbs-head .dropdown-menu li a:hover { background-color: #333; }
+
+#pjWrapper .bootstrap-datetimepicker-widget table td span.active,
+#pjWrapper .bootstrap-datetimepicker-widget table td.active, 
+#pjWrapper .bootstrap-datetimepicker-widget table td.active:hover { background-color: #ecbd1c; }  
+
+#pjWrapper .bootstrap-datetimepicker-widget table td.today:before { border-color: rgba(0, 0, 0, 0.2) transparent #ecbd1c; }
+
+/*----custom CSS 10/02/2021----*/
+#pjWrapper .pjTbs-box {
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px -5px rgb(0 0 0 / 40%);
+}
+
+#pjWrapper .pjTbs-box .pjTbs-body-actions .btn {
+    width: 200px;
+    background: #4fa3e3;
+    color: #fff;
+    font-family: lato, sans-serif;
+    font-weight: 700;
+    border: 1px solid #fff;
+    background: #478ac9;
+    margin-right:  auto 0;
+}
+
+#pjWrapper .pjTbs-distance input {
+    width: 60px;
+    background: #fff;
+}
+
+
+<!------10072021---->
+/*------------ Custom Css starts here ----------- */
+div#logo h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+body #pjWrapperTaxiBooking_theme1 {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    line-height: 33px !important;
+}
+#pjWrapperTaxiBooking_theme1 .pjTbs-head {
+    background-color: #1c2833 !important;
+} 
+body #pjWrapperTaxiBooking_theme1, #pjWrapperTaxiBooking_theme1 .pjTbs-box, #pjWrapperTaxiBooking_theme1 .pjTbs-body{
+    background-color: #2d343b !important;
+    /*color: #fff !important;*/
+    color:  #425465
+}
+.hero-image img{
+  height: 800px !important;
+}
+#pjWrapperTaxiBooking_theme1 .pjTbs-distance {
+    display: flex;
+}
+#pjWrapperTaxiBooking_theme1 .form-control[readonly]{
+    background-color: #282e35 !important;
+    color: #fff !important  
+}
+.col-sm-6.col-xs-12.has-error label.control-label, .form-group.has-error label.control-label {
+    color: #fff !important;
+    float: left;    
+}
+ul.list-unstyled li.error {
+    color: #fff !important;
+    float: left;
+    font-size: 12px;  
+}
+#pjWrapperTaxiBooking_theme1 .input-group-addon{
+   background-color: #1c2126 !important;  
+}
+#pjWrapperTaxiBooking_theme1 .pjTbs-head .form-control{
+  background-color: #1c2833 !important;
+}
+#pjWrapperTaxiBooking_theme1 .pjTbs-spinner-result {
+    background: #1c2126 !important;    
+    border: 1px solid rgb(28, 33, 38) !important;
+} 
+div#pjTbsMapCanvas {
+    display: none;
+}
+#pjWrapperTaxiBooking_theme1 .form-control {
+    background: #1c2126;
+    color: #fff;
+}
+#pjWrapperTaxiBooking_theme1 .pjTbs-car-title, #pjWrapperTaxiBooking_theme1 .pjTbs-car-meta li, #pjWrapperTaxiBooking_theme1 .pjTbs-box-title{
+   color: #fff !important;  
+}
+#pjWrapperTaxiBooking_theme1 .pjTbs-head .form-control{
+  width: 460px;
+}
+#pjWrapperTaxiBooking_theme1 .pjTbs-body {
+    border: 0px !important; 
+}
+#pjWrapperTaxiBooking_theme1 .pjTbs-box .pjTbs-body-actions .btn {
+    width: 80% !important;
+    display: inherit;
+    margin: auto;
+    border-radius: 0px !important;
+    color: #1c2126;
+    background-color: #f7c411;
+    font-weight: 700;
+    height: 50px;
+    border: none;
+    padding: 10px 80px;
+    text-align: center;
+    margin-top: 10px;
+}
+#pjWrapperTaxiBooking_theme1 .pjTbs-price {
+    font-size: 12px;
+}
+.pjTbs-car.pjTbs-box .col-sm-3.col-xs-12 {
+    width: 100% !important;
+}
+#pjWrapperTaxiBooking_theme1 input.btn {
+  margin: auto;
+    border-radius: 0px !important;
+    color: #1c2126;
+    background-color: #f7c411;
+    font-weight: 700;
+} 
+.booking-container-form div#pjWrapperTaxiBooking_theme1 {
+  padding: 15px 0;
+   width:  680px;
+  margin-top:  -400px;
+  margin-left: -300px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-head {
+  padding: 10px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-head .col-sm-4.col-xs-8, .booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-head .col-sm-4.col-xs-8 select {
+  width: 100%;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-head .col-sm-4.col-xs-8 select {
+  height: 30px;
+  font-size: 13px;
+  padding: 5px 8px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body , .booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm div#pjTbsPriceBox .pjTbs-subtotal{
+  padding: 0;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-service-list-row {
+  padding: 10px 0;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-service-list-row p {
+  line-height: 25px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-service-list-row p:first-child {
+  font-size: 13px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-service-list-row p strong, .booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-service-list-row p em {
+  font-size: 14px !important;
+  line-height: 18px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-service-list-row .row .col-xs-12 {
+  padding: 0 5px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-service-list-row .row {
+  margin: 0;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-box .row .col-sm-12 {
+    padding: 0;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-box {
+  padding: 8px;
+  margin-bottom: 5px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-box .pjTbs-box-title {
+  padding-bottom: 0;
+  font-size: 14px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm div#pjTbsPriceBox .pjTbs-subtotal p {
+  padding: 0;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm div#pjTbsPriceBox .pjTbs-subtotal p span {
+  font-size: 12px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-box .form-group {
+  margin-bottom: 0;
+  display: inline-block;
+  width: 100%;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-box .help-block.with-errors {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-box .form-group input, .booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-box .form-group textarea, .booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-box .form-group select {
+  height: 30px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-box .form-group span {
+  line-height: 16px;
+  font-size: 13px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-box .form-group span.input-group-addon {
+  line-height: 10px;
+  padding: 5px 10px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-box .form-group label {
+  line-height: 21px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm {
+  margin: 0;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-body-actions a.btn, .booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-body-actions input {
+  padding: 5px 10px;
+  height: auto;
+  width: auto;
+  font-size: 12px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-service-list {
+  margin: 0;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-box .row .col-xs-12 {
+    padding: 0 2px;
+}
+.booking-container-form div#pjWrapperTaxiBooking_theme1 .container-fluid .pjTbs-body .pjTbsCheckoutForm .pjTbs-box .row {
+    margin: 0;
+}
+#pjWrapperTaxiBooking_theme1 .pjTbs-service-list-row p strong{
+   font-size: 16px !important;  
+}
+#pjWrapperTaxiBooking_theme1 .pjTbs-subtotal p{
+  font-size: 16px !important;   
+}

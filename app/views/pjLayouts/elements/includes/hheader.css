@@ -1,0 +1,388 @@
+
+ Global 
+*{
+  /*background-color: #f2f2f2;*/
+  margin: 0;
+  padding: 0;
+
+}
+
+
+#header {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  max-height: 62px;
+  height: 100%;
+  background-color: #001f3f ;
+  color: #000000;
+  margin-bottom: 0px;
+  padding: 0 auto;
+  }
+  
+ 
+#logo {
+  position: absolute;
+  left: 0;
+  width: 30%;
+  max-height: 60px;
+  background-color: #001f3f;
+  padding: 10px;
+
+}
+
+
+#logo  h1{
+
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  margin-left: 35px;
+  color: #fff;
+  font-weight: 700;
+  transition: 1s;
+  margin-top: 5px;
+  padding-left: 50px;
+
+}
+
+
+
+
+
+/*********************************************************************************/
+               /*   dropdown  */                                                   
+/*********************************************************************************/
+
+
+
+.topnav{
+  position: absolute;
+  right: 0;
+  width: 50%;
+  max-height: 100%;
+  height: 60px;
+  padding-left: 0px;
+}
+
+
+.topnav ul ul {
+  display: none;
+  z-index: 1;
+
+
+  
+  
+}
+
+  .topnav ul li:hover > ul {
+    display: block;
+  }
+
+  .topnav ul {
+    background: #001f3f;
+    padding: 0px;
+    border-radius: 0px;  
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    font-size: 16px;
+
+  }
+    .topnav ul:after {
+      content: ""; clear: both; display: block;
+    }
+
+
+    .topnav ul li {
+      float: left;
+    }
+      .topnav ul li:hover {
+        background: #4b545f;
+        background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+        background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+        background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+      }
+        .topnav ul li:hover a {
+          color: #fff;
+        }
+      
+      .topnav ul li a {
+        display: block; padding: 19px 20px;
+        color: #fff; text-decoration: none;
+      }
+
+      .topnav ul ul {
+        background: #5f6975; border-radius: 0px; padding: 0;
+        position: absolute; top: 100%;
+      }
+        .topnav ul ul li {
+          float: none; 
+          border-top: 1px solid #FF6347;
+          border-bottom: 1px solid #FF6347;
+          position: relative;
+        }
+          .topnav ul ul li a {
+            padding: 10px 20px;
+            color: #fff;
+          } 
+            .topnav ul ul li a:hover {
+              background: #4b545f;
+            }
+    
+            .topnav ul ul ul {
+              position: absolute; left: 100%; top:0;
+            }
+
+
+/*****************************************************
+             New Hamburger Menu   
+ ****************************************************/
+ 
+
+/*New hamburger menu*/
+/*---------------end------of-----toggle----menu----------*/
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+html, body {
+    overflow-x: hidden;
+   
+}
+/*body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+*/
+.hamburger-menu {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    max-width: 100%;
+    height: 60px;
+    box-shadow: none;
+    background-color: #001f3f;
+    position: fixed;
+    right: 0;
+    height: 60px!important;
+    overflow: hidden;
+    z-index: 10;
+}
+.main {
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    margin-top: 60px;
+}
+.mainInner{
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.mainInner div{
+    display:table-cell;
+    vertical-align: middle;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+#sidebarMenu {
+    height: 480px;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    margin-top: 60px;
+    transform: translateX(250px);
+    transition: transform 250ms ease-in-out;
+    background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+}
+.sidebarMenuInner{
+    margin:0;
+    padding:0;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner li{
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner li span{
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.50);
+}
+.sidebarMenuInner li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+}
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 22px;
+    right: 15px;
+    height: 22px;
+    width: 22px;
+}
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+}
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+/***************************@media******************rule*/
+
+/*@media rule mobile*/
+/*topnav menu mobile*/
+   @media only screen and (max-width: 668px) {
+    #header{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+     }
+
+
+  .topnav{
+  display: none;
+  }
+
+ 
+  #logo {
+  position: absolute;
+  float: left;
+  left: 0;
+  width: 70%;
+  background: #FF6347;
+  height: 100%;
+     }
+
+
+  #logo  h1{
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  transition: 1s;
+  padding-left: 10px;
+  float: left;
+  margin-left: 0px;
+  margin-top: 10px;
+
+
+     }
+}
+
+@media only screen and (min-width: 668px){
+  .hamburger-menu{
+    display: none;
+  }
+ 
+}
+
+
+/****Tablets*********************/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #header{
+      width: 100%;
+      height:65px;
+      max-height: 100%;
+
+    }
+     #logo{
+       width: 35%;
+     }
+    #logo h1{
+      padding: 0;
+      font-size: 25px;
+      margin-left: 10px;
+    }
+
+
+    .topnav{
+      width: 65%;
+      background-color: #001f3f;
+
+    }
+  .topnav ul{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .topnav ul li a {
+    display: block;
+    padding: 13px 12px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+   }
+
+  
+}
